@@ -2,9 +2,22 @@
 
 The QueryHandler is a library that allows you to easily create MYSQL and SQLite database connections and queries.
 
-## Information
-* -
-
+## Add the QueryHandler to your project
+Add the JitPack repository to your pom.xml file
+```
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+```
+Add the dependency
+```
+        <dependency>
+            <groupId>com.github.RaclerProductions</groupId>
+            <artifactId>query-handler</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+```
 
 ## How to use
 Any simple query should be possible with the QueryHandler. If you want to get a result of a select query, you have to use queryHandler.select() and if you want to get a true or false query from an update, delete or insert query, use queryHandler.execute() instead.
