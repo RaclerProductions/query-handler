@@ -2,7 +2,7 @@
 
 The QueryHandler is a library that allows you to easily create MYSQL and SQLite database connections and queries.
 
-## Add the QueryHandler to your project
+## Add the QueryHandler to your project [![](https://jitpack.io/v/RaclerProductions/query-handler.svg)](https://jitpack.io/#RaclerProductions/query-handler)
 Add the JitPack repository to your pom.xml file
 ```
         <repository>
@@ -15,7 +15,7 @@ Add the dependency
         <dependency>
             <groupId>com.github.RaclerProductions</groupId>
             <artifactId>query-handler</artifactId>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </dependency>
 ```
 
